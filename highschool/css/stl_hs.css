@@ -1,0 +1,378 @@
+* { 
+margin:0;
+border:0;
+padding:0;
+outline:none;
+position:relative;
+-webkit-tap-highlight-color: transparent;
+}
+
+a, img { text-decoration:none }
+
+li { list-style:none }
+
+html{
+	background-color: white;
+}
+
+h1 {
+width:561px; height:71px;
+background:url(../img/bgh1-yellow.png) no-repeat;
+margin:0 0 30px 30px;
+}
+
+h2 {
+font-weight:600; 
+letter-spacing:-1px; 
+margin-bottom:10px
+}
+
+h2.inline { margin:40px 0 20px 0 }
+
+p { 
+line-height:20px;
+margin-bottom:15px;
+text-align:justify
+}
+
+.align {
+width:850px; 
+left:50%;
+margin-left:-425px;
+}
+
+span.sidebar {
+width:200px; height:720px;
+}
+
+.att { color:#e0b640; font-weight:600 }
+
+.bnn {
+background:#ddd;
+margin-bottom:15px;
+border:2px solid #cdcdcd;
+}
+
+.bnn, .bnn div { width:590px; height:283px }
+
+.bnn .prev, .bnn .next {
+position:absolute;
+top:117px;
+z-index:900;
+display:block;
+width:25px; height:63px;
+cursor:pointer;
+opacity:0.6;
+filter:alpha(opacity=60);
+}
+
+.bnn .prev:hover, .bnn .next:hover {
+opacity:1;
+filter:alpha(opacity=100);
+}
+
+.bnn .prev {
+background:url(../img/prev.png) no-repeat;
+left:15px;
+}
+
+.bnn .next {
+background:url(../img/next.png) no-repeat;
+right:15px;
+}
+
+.content {
+width:620px; height:auto;
+margin-left:20px;
+padding-top:85px;
+}
+
+.ctdReg ul { padding-left:30px; margin:0 0 10px 0; }
+.ctdReg li { list-style:disc; margin-bottom:5px }
+
+.ctdSobre h3, .ctdInfo span { display:block; color:#be1010 }
+
+.ds { 
+width:460px;
+margin:0 0 40px 7px;
+padding-top:10px;
+text-align: justify;
+}
+
+.faq h3, .listSobre {
+font-size:16px;
+font-weight:600;
+margin-bottom:10px;
+cursor:pointer;
+color:#000;
+background:url(../img/faq-yellow-def.jpg) 0 6px no-repeat;
+padding-left:15px;
+}
+
+.faq h3 {
+display:inline-block;
+*display:inline;
+zoom:1;
+width:auto;
+}
+
+.iefix { height:1087px !important }
+
+
+.listSobre { display:block; margin-bottom:7px }
+.listSobre > span { font-weight:400 }
+
+.listProva {
+padding-left:0;
+background:none;
+}
+
+.faq > div {
+margin:-7px 0 20px 0;
+}
+
+.frmContato input.campo, .frmContato textarea.campo {
+display:block;
+width:350px;
+border:1px solid #333;
+padding:5px 10px;
+margin-bottom:10px;
+font:normal 16px 'Roboto', sans-serif;
+}
+
+.frmContato textarea.campo {
+height:200px;
+resize:none; 
+overflow:hidden
+}
+
+.frmInsc input.campo, .frmInsc select.campo {
+display: block;
+width:300px;
+border:1px solid #333;
+padding:3px 8px;
+}
+
+.frmInsc select.campo { width:317px }
+
+.frmInsc .textocomentario2 {
+display:block;
+font-size:12px;
+color:#e0b640;
+white-space: nowrap;
+}
+
+.frmInsc td { 
+width:150px; height:25px !important; 
+padding:0;
+display:inline-block !important;
+vertical-align:top;
+padding:0 15px 20px 0;
+}
+
+.frmInsc td.cmm {
+height:auto !important;
+white-space: nowrap;
+}
+
+.frmInsc #AlunoJP { margin-top:15px }
+
+.frmInsc .rdio { 
+margin-right:15px;
+font-weight:600; 
+padding-left:17px;
+*padding-left:20px;
+}
+
+.frmInsc .rdio input { 
+position:absolute;
+top:5px; left:0;
+*top:0px;
+}
+
+/* remove estilo default - iPad */
+input.campo, .botao {
+-webkit-appearance: none;
+border-radius:0
+}
+
+select.campo { border:0 }
+
+.frmContato .botao, .frmInsc .botao {
+font:normal 16px 'Roboto', sans-serif;
+width:90px; height:30px;
+text-align:center;
+background:#fff;
+border:1px solid #333;
+cursor:pointer;
+}
+
+.frmInsc .botao:hover, .frmContato .botao:hover { background:#333; color:#fff; }
+
+.ctd {
+padding-left:30px;
+height:auto;
+}
+
+.ctdProva .listSobre { font-weight:normal !important }
+
+.ctdProva b { font-weight:600 }
+
+.footer {
+margin-top:40px;
+height:40px;
+color:#555;
+font-size:14px;
+padding:20px 0;
+}
+.footer div {
+margin-left:45px;
+}
+.footer h4 { 
+font:600 16px 'Source Sans Pro', sans-serif; 
+color:#333;
+}
+.footer .logoFooter {
+width:127px; height:79px;
+position:absolute;
+bottom:5px; right:0;
+display:block;
+background:url(../img/logo-jp-menor.png) no-repeat;
+background-size: cover;
+}
+.footer .logoFooterMu {
+width:127px; height:79px;
+position:absolute;
+bottom:5px; right:175px;
+display:block;
+background:url(../img/logo-mu.png) no-repeat center;
+background-size: cover;
+}
+
+
+.grid {
+display:inline-block;
+*display:inline;
+zoom:1;
+vertical-align:top
+}
+
+.ctdInfo p, .ctdReg p, .ctdTexas p {
+line-height:22px;
+}
+
+.ctdTexas a, .index a { color:#e0b640 }
+
+.logo {
+width:139px; height:100px;
+display:block;
+background:url(../img/logo-jp-inter.png) no-repeat;
+margin:30px 0 50px 0px;
+top:25px;
+background-size: 100% 100%;
+background-position: center;
+}
+
+.sidebar a {
+text-align:justify;
+font-size:14px;
+color:#777;
+line-height:22px;
+display:block;
+margin-top:0px;
+padding-right: 30px;
+}
+
+.sidebar a:hover { color:#000 }
+
+.sidebar a span { 
+color:#e0b640; 
+font-weight:bold;
+}
+
+.sidebar span { display:block }
+.sidebar > span { margin-top:30px }
+
+.sidebar .dtProva {
+width:192px; height:53px;
+background:url(../img/dtprova.jpg) no-repeat;
+}
+.sidebar .hrProva {
+width:121px; height:54px;
+background:url(../img/hrprova.jpg) no-repeat;
+}
+.sidebar .dtInsc {
+width:192px; height:54px;
+background:url(../img/dtinsc.jpg) no-repeat;
+}
+
+.subttl {
+font-size:18px;
+font-weight:700;
+display:block;
+color:#333;
+margin-bottom:15px
+}
+
+.topMenu {
+position:absolute;
+top:25px; right:0;
+}
+
+.topMenu li { margin-left:12px }
+.topMenu li a {
+font:normal 16px 'Roboto', sans-serif;
+color:#777;
+padding:3px 7px;
+}
+.topMenu li a:hover, .current {
+color:#fff !important;
+background:#e0b640;
+}
+
+.pointer {
+	cursor: pointer;	
+}
+
+#ico-loading {
+	position: absolute;
+	left: 330px;
+	top: 5px;
+	display: none;
+}
+
+.hide {
+	display: none;
+}
+
+.fail {
+	background: #BE1010;
+	color: white;
+}
+
+.ok {	
+
+}
+
+#EmailResposta small {
+	color: #777;
+	position: relative;
+	left: 17px;	
+}
+
+#CodigoDeSeguranca {
+	margin-top: 50px;
+}
+
+.protocolo {
+	background: #fff09b;
+	padding: 5px;
+	border: 1px solid #e8cc32;
+	color: #e89032;
+	border-radius: 3px;
+	font-weight: bold;
+}
+
+/*@media only screen and (device-width:768px)and (orientation:landscape) {
+body { -webkit-text-size-adjust:100% }
+}*/

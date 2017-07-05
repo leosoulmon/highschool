@@ -1,0 +1,38 @@
+.tit-comp-hs{
+	font-weight: bold;
+	font-size: 1.5rem;
+	border-bottom: #000 solid 5px;
+	color: #000;
+	margin-bottom: -32px;
+}
+.bloco{
+	border-bottom: #ccc solid 2px;
+	padding-bottom: 25px;
+}
+.bloco2{
+	border-bottom: #ccc solid 2px;
+	padding-bottom: 25px;
+	margin-bottom: -10px;
+}
+.logo-footer-comp{
+	margin-bottom: 0px;
+}
+.alert{
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+.comp-container{
+	border:solid #ccc 2px;
+	margin-top: 50px;
+	padding:15px;
+}
+.info-dados{
+	font-weight: bold;
+}
+.comp-container > .logo-footer-comp > .logo-hs-comp{
+	max-width:350px;
+	margin-top:30px; 
+}
+.comp-container > .logo-footer-comp > .logo-jp-comp{
+	max-width:145px;
+}

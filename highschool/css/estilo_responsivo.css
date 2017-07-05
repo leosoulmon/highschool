@@ -1,0 +1,226 @@
+@media screen and (max-width:1284px){
+	footer .part1 >:first-child{
+		width: 430px;
+	}
+
+	footer .part1 >:last-child,footer .part2 >:last-child{
+		margin-right: 0px;
+	}
+
+	footer .part2,footer .part1{
+		display:block;
+		text-align: left;
+		margin: 0 auto;
+		width: 670px;
+	}
+
+	footer .logoFooterMu{
+		margin-right: 225px;
+	}
+}
+
+@media screen and (max-width:1180px){
+	.conteudo{
+		width: 97%;
+		height: auto;
+		padding: 15px;
+	}
+
+	header{
+		width:100%;
+		padding-left: 5px;
+	}	
+
+	header .menu{
+        display: inline-block;
+	}
+}
+
+@media screen and (max-width:1172px){
+
+	header{
+		height:auto;
+		margin-bottom: 25px;
+	}
+
+	header .menu{
+		margin-left: 0;
+        display: block;
+	}
+
+	.contem_logo, .menu{
+		margin-top: 15px;
+	}
+
+	header .menu li{
+		display: block;
+		margin-left: 0px;
+		margin-top: 15px;
+	}
+
+	header .menu{
+		display: none;
+	}
+
+	.bt_menu{
+		display: block;
+	}
+
+
+
+}
+
+@media screen and (max-width:960px){
+	footer .part1 >:first-child{
+		width: 430px;
+	}
+
+	footer .part1 >:last-child,footer .part2 >:last-child{
+		margin-right: 0px;
+	}
+
+	footer .part2,footer .part1{
+		display:block;
+		text-align: left;
+	}
+
+	footer .logoFooterMu{
+		margin-right: 225px;
+	}
+}
+
+
+@media screen and (max-width:768px){
+	
+	.form_inscricao{
+		width: 96%;
+	}
+	
+	.banner{
+		margin-bottom: 30px;
+	}
+
+	.inicio{
+		margin-top:0%; 
+	}
+
+	.setas{
+		width:40px;
+		height: 35px;
+		font-size: 1.8em;
+		top:40%;
+	}
+
+	.nav_slider{
+		bottom:15px;
+	}
+	.nav_slider li{
+		padding: 3px;
+	}
+}
+
+@media screen and (max-width:735px){
+	footer .part1, footer .part2{
+		text-align: center;
+	}
+	
+	footer .part1{
+		margin-bottom: 15px;
+	}
+
+	footer .part2{
+		margin-bottom: 25px;
+	}
+	footer .part1 >:last-child,footer .part2 >:last-child{
+		display: block;
+		margin-top:15px; 
+	}
+
+	footer .logoFooterMu, footer .infoFooterMu, footer .part1>:first-child{
+		margin-right: 0px;
+	}
+
+	footer .part2,footer .part1{
+		width:100%;
+	}
+}
+
+@media screen and (max-width:670px){
+	.escola, .como_soube{
+		width:100%;
+	}
+}
+
+@media screen and (max-width:500px){
+	.conteudo,footer{
+		font-size: 0.8em;
+	}
+
+	.logo_jp{
+		width:250px;
+	}
+
+	.banner{
+		display: none;
+	}
+
+	.conteudo{
+		width: 95%;
+	}
+}
+
+@media screen and (max-width:465px){
+	footer .part1>:first-child{
+		width: 257px;
+	}
+	footer .part2>:first-child > img{
+		width: 250px;
+	}
+}
+
+@media screen and (max-width:450px){
+	.form_inscricao .contem_endereco label{
+		display: block;
+	}
+
+	.form_inscricao p label #numero{
+		width:100%;
+	}
+
+	.form_inscricao p label #complemento{
+		width:100%;
+	}
+}
+
+@media screen and (max-width:420px){
+	.form_inscricao{
+		width: 94%;
+	}
+
+	.segunda_via_info .att{
+		min-width: 250px;
+		width: 91%;
+	}
+}
+
+@media screen and (max-width:400px){
+	.logo_jp{
+		width:220px;
+	}
+
+	.imagem_bt_menu{
+		width:32px;
+	}
+}
+
+@media screen and (max-width:375px){
+.conteudo{
+		width:94%;
+	}
+}
+
+@media screen and (max-width:320px){
+.conteudo{
+		width:93%;
+	}
+}

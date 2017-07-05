@@ -1,0 +1,354 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Montserrat', sans-serif;
+    font:16px;
+}
+
+body,html{
+	border:0;
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	width: 1150px;
+	height:100px;
+	margin: 0 auto;
+	margin-bottom:50px;
+	margin-top: 20px;
+}
+
+header figure, header .menu{
+	display: inline-block;
+}
+
+.menu{
+	height:auto; 
+	display:inline-block;
+	margin-left: 69px;
+}
+
+.menu ul li{
+	display: inline-block;
+	background-image:url("paper.gif");
+	margin-left: 40px;
+	vertical-align: 15px;
+}
+
+.menu ul li:first-child{
+	margin-left: 0;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color:#000;
+	display: inline-block;
+	transition:0.2s;
+}
+
+.menu ul li a:hover, a{
+	color:#fbc02d;
+}
+
+.contem_logo{
+	margin-right:0;
+	margin-top: 30px;
+}
+
+.bt_menu{
+	display: inline-block;
+	float: right;
+	margin-right: 25px;
+	margin-top: 10px;
+	cursor:pointer;
+	display: none;
+}
+
+.imagem_bt_menu{
+	width:45px;
+	height:auto;
+}
+
+.logo_jp {
+	width:370px; 
+	height:auto;
+}
+
+.tit_pagina{
+	margin-bottom: 20px;
+	color:#f1b518;
+}
+
+.slider{
+	width: 100%;
+	height:auto;
+	/*width: 100%;
+	height:auto;
+	*min-width: 1500px;*/
+	/*max-width: 960px;
+	max-width: 1960px;
+	max-height: 550px;*/
+}
+
+footer{
+	text-align: center;
+	padding: 25px;
+}
+
+.info_footer, .logoFooterMu, .logoFooter{
+	display: inline-block;
+	margin-right:100px; 
+}
+
+footer > .part1 > :first-child{
+	width: 320px;
+}
+
+
+footer > .part1{
+	vertical-align: 22px;
+}
+
+footer > .part1 > :nth-child(2){
+	vertical-align: 6px;
+}
+
+footer > .part2 > :last-child{
+	margin-right:15px;
+}
+
+ 
+
+/*BANNER*/
+
+.banner{
+    width:100%;
+    height:auto;
+    position: relative;
+}
+
+.slide{
+    cursor: default; 
+    position: relative; 
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.nav_slider{
+	position: absolute;
+	z-index: 999;
+	bottom:35px;
+	right: 46%;
+}
+
+.nav_slider li{
+	cursor: pointer;
+	background:#ccc;
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 5px;
+	color: white;
+	padding: 3px;
+	border:white 2px solid;
+	border-radius: 155px;
+	width: 1px;
+	height: 1px;
+	opacity: 0.6;
+}
+
+.nav_slider li:hover{
+	background:#f1b518;
+	border-color: white;
+}
+
+.setas{
+	cursor: pointer;
+	color: #f1b518;
+	position: absolute;
+	top:45%;
+	transition:0.2s;
+	z-index: 999;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 2em;
+	opacity: 0.5;
+}
+
+.anterior{
+	left: 35px;
+}
+
+.proximo{
+	right: 35px;
+}
+
+.setas:hover{
+	color: white;
+	opacity: 1;
+}
+
+
+/*PÁGINA INDEX*/
+
+.conteudo{
+	width: 1125px;
+	height: auto;
+	margin:30px auto;
+	text-align: justify;
+	padding: 15px
+}
+
+/*PÁGINA DE INSCRIÇÃO*/
+
+.form_segunda_via{
+	text-align: left;
+}
+
+.segunda_via_info{
+	margin-bottom: 10px;
+}
+
+.segunda_via_info .att{
+	background: #e0b640;
+	color:white;
+	display: block;
+	width: 350px;
+	text-align: center;
+	padding: 15px;
+}
+
+.form_inscricao{
+	width: 98%;
+	transition:0.3s;
+}
+
+.conteudo{
+    *color: #f1b518;
+}
+
+label{
+	display: block;
+	margin-bottom: 10px;
+	color:#f1b518;
+}
+
+.campo{
+	display: block;
+	padding:7.5px;
+	width: 100%;
+}
+
+.form_inscricao p label span, .form_segunda_via p label span{
+	width:auto;
+	height:auto;
+	display:block;
+	margin-bottom: 5px;
+}
+
+.botao{
+	text-decoration:none;
+	font:normal 16px 'Roboto', sans-serif; 
+	padding:2px 6px 3px;
+	background-color:#444;
+	border:solid 1px #f1b518;
+	cursor:pointer;
+	padding:3px 10px;
+	transition:0.3s;
+	color:#f1b518;
+}
+
+.como_soube, .escola{
+	width:420px;
+}
+
+.dt_nascimento::-webkit-inner-spin-button,.dt_nascimento::-webkit-calendar-picker-indicator{
+  display: none;
+  -webkit-appearance: none;
+}
+
+.form_inscricao .contem_endereco{
+	width: 100%;
+}
+
+.form_inscricao .contem_endereco label{
+	display: inline-block;
+}
+
+.form_inscricao p label #endereco{
+	width:100%;
+}
+
+.form_inscricao p label #numero{
+	width:135px;
+	margin-right: 15px;
+}
+
+.form_inscricao p label #complemento{
+	width:105px;
+}
+
+label{
+  display: block;
+  margin-bottom: 10px;
+  color:#f1b518;
+ }
+
+ #bt_gerar_comp{  
+   text-decoration:none;
+   font:normal 16px 'Roboto', sans-serif; 
+   padding:2px 6px 3px;
+   background-color:#444;
+   border:solid 1px #f1b518;
+   cursor:pointer;
+   padding:3px 10px;
+   transition:0.3s;
+   color:#f1b518;
+ }
+/*REGULAMENTO*/
+
+.lista_regulamento{
+    padding-left: 30px;
+}
+
+/*F.A.Q.*/
+
+.tabela_criterios,td,th{
+  border:1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.tabela_criterios thead tr th{
+  padding:15px;
+  padding-left:7px;
+  background-color:#ccc;
+  color: white;
+}
+
+.tabela_criterios tbody tr td{
+  padding:15px;
+  padding-left:7px;
+  
+}
+
+.tabela_criterios tbody tr .coluna2{
+  width:550px;
+}
+
+.tabela_criterios tbody tr .coluna1{
+  width:75px;
+}
+
+.footer > div, .footer > a{
+	margin-bottom: 50px;
+}
+
+footer .part1, footer .part2{
+	display: inline-block;
+}
