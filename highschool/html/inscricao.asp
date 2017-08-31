@@ -5,9 +5,9 @@
   
 	 <%
       agora = CDate(Now())
-      encerramento = "07/07/2017 08:00"
+      encerramento = "31/08/2017 08:00"
       data_abertura = "03/07/2017 00:00"
-      aberto = DateDiff("s", encerramento, agora)
+      'aberto = DateDiff("s", encerramento, agora)
       'response.write(aberto)
       if DateDiff("s", encerramento, agora) >= 0 then  
     %>

@@ -263,7 +263,7 @@ label{
 	color:#f1b518;
 }
 
-.como_soube, .escola{
+.como_soube, .escola, .concordo{
 	width:420px;
 }
 
@@ -290,7 +290,7 @@ label{
 }
 
 .form_inscricao p label #complemento{
-	width:105px;
+	width:215px;
 }
 
 label{

@@ -49,12 +49,13 @@ $(function(){
     limparRG();
   };
   
-  var dados = [$("#nome"),$("#sobrenome"),$("#cd_rg"),$("#email"),$("#nm_responsavel"),$("#dt_nascimento"),$("#endereco"),$("#numero"),$("#bairro"),$("cidade"),$("#cep"),$("#telefone"),$("#aula_prep"),$("#texto_imagem"),$("#outra_escola"),$("#digite_como_soube")];
+  var dados = [$("#nome"),$("#sobrenome"),$("#dt_nascimento"),$("#cd_rg"),$("#email"),$("#nm_responsavel"),$("#endereco"),$("#numero"),$("#bairro"),$("cidade"),$("#cep"),$("#telefone"),$("#aula_prep"),$("#texto_imagem"),$("#outra_escola"),$("#digite_como_soube")];
 
   for(var i in dados){
     dados[i].val("");
     $("#escola").val("0");
     $("#como_soube").val("0");
+    $("#concordo").val();
   };
 
   $(window).resize(function(){
@@ -83,34 +84,94 @@ $(function(){
 
   $("#form_inscricao").submit(function(){
     limparRG();
-    var dados = [$("#nome"),$("#sobrenome"),$("#cd_rg"),$("#email"),$("#nm_responsavel"),$("#dt_nascimento"),$("#endereco"),$("#numero"),$("#bairro"),$("cidade"),$("#cep"),$("#telefone"),$("#aula_prep"),$("#texto_imagem")];   
+    //var dados = [$("#nome"),$("#sobrenome"),$("#cd_rg"),$("#dt_nascimento"),$("#email"),$("#nm_responsavel"),$("#endereco"),$("#numero"),$("#bairro"),$("#cidade"),$("#cep"),$("#telefone"),$("#aula_prep"),$("#texto_imagem"),$("#concordo")];   
 
-    for(var i in dados){
-      if (dados[i].val() == ""){
-        alert(dados[i].attr("placeholder"));
-        return false;
-      };
-    };
-
-    var escola = $("#escola");
-    var outra_escola = $("#outra_escola");
-    var como_soube = $("#como_soube");
-    var soube = $("#digite_como_soube");
+    if($("#nome").val() == ""){
+      alert($("#nome").attr("placeholder"));
+      return false;
+    }else if($("#sobrenome").val() == ""){
+      alert($("#sobrenome").attr("placeholder"));
+      return false;
+    }else if($("#cd_rg").val() == ""){
+      alert($("#cd_rg").attr("placeholder"));
+      return false;
+    }else if($("#dt_nascimento").val() == ""){
+      alert($("#dt_nascimento").attr("placeholder"));
+      return false;
+    }else if($("#email").val() == ""){
+      alert($("#email").attr("placeholder"));
+      return false;
+    }else if($("#nm_responsavel").val() == ""){
+      alert($("#nm_responsavel").attr("placeholder"));
+      return false;
+     }else if($("#escola").val() == 0){
+      alert($("#escola").attr("placeholder")); //escola
+      return false;
+    }else if($("#escola").val() == 1 && $("#outra_escola").val() == ""){
+      alert($("#outra_escola").attr("placeholder"));
+      return false;
+    }else if($("#endereco").val() == ""){
+      alert($("#endereco").attr("placeholder"));
+      return false;
+    }else if($("#numero").val() == ""){
+      alert($("#numero").attr("placeholder"));
+      return false;
+    }else if($("#bairro").val() == ""){
+      alert($("#bairro").attr("placeholder"));
+      return false;
+    }else if($("#cidade").val() == ""){
+      alert($("#cidade").attr("placeholder"));
+      return false;
+    }else if($("#cep").val() == ""){
+      alert($("#cep").attr("placeholder"));
+      return false;
+    }else if($("#telefone").val() == ""){
+      alert($("#telefone").attr("placeholder"));
+      return false;
+    }else if($("#como_soube").val() == 0){
+      alert($("#como_soube").attr("placeholder"));
+      return false;
+    }else if($("#como_soube").val() == 1 && $("#digite_como_soube").val() == ""){
+      alert($("#digite_como_soube").attr("placeholder"));
+      return false;
+    }else if($("#aula_prep").val() == ""){
+      alert($("#aula_prep").attr("placeholder"));
+      return false;
+    }else if($("#texto_imagem").val() == ""){
+      alert($("#texto_imagem").attr("placeholder"));
+      return false;
+    }else if($("#concordo").val() == ""){
+      alert($("#concordo").attr("placeholder"));
+      return false;
+    }
     
-    if(escola.val() == 0){
-      alert(escola.attr("placeholder"));
-      return false;
-    }else if(escola.val() == 1 && outra_escola.val() == ""){
-      alert(outra_escola.attr("placeholder"));
-      return false;
-    };
+
+    // for(var i in dados){
+    //   if (dados[i].val() == ""){
+    //     alert(dados[i].attr("placeholder"));
+    //     return false;
+    //   };
+    // };
+
+    // var escola = $("#escola");
+    // var outra_escola = $("#outra_escola");
+    // var como_soube = $("#como_soube");
+    // var soube = $("#digite_como_soube");
+    
+    // if(escola.val() == 0){
+    //   alert(escola.attr("placeholder"));
+    //   return false;
+    // }else if(escola.val() == 1 && outra_escola.val() == ""){
+    //   alert(outra_escola.attr("placeholder"));
+    //   return false;
+    // };
 
     if(como_soube.val() == 0){
       alert(como_soube.attr("placeholder"));
       return false;
     }else if(como_soube.val() == 1 && soube.val() == ""){
-        alert(soube.attr("placeholder"));
-        return false;
+      alert(soube.attr("placeholder"));
+      return false;
     };
 
     return true;
@@ -123,19 +184,19 @@ $(function(){
     var mensagem = $("#mensagem").val();
     var qtdmsg = mensagem.length;
     if(nome == ""){
-    alert("Digite o seu nome!");
+    alert("Digite o seu nome.");
     return false;
     }else{
         if(email == ""){
-            alert("Digite o email!");
+            alert("Digite o email.");
             return false;
         }else{
             if(telefone == ""){
-                alert("Digite seu Telefone!");
+                alert("Digite seu Telefone.");
                 return false;
             }else{
                 if(mensagem == "" || qtdmsg < 2){
-                    alert("Digite sua mensagem!");
+                    alert("Digite sua mensagem.");
                     return false
                 }
             }

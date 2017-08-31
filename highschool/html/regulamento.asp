@@ -5,11 +5,11 @@
 	<h2 class="tit_pagina">Regulamento</h2>
 
 	<p>
-		<strong>1.</strong> A prova de seleção para o Jean Piaget High School é gratuita e aberta a todos os alunos que cursam o 8º ano do Ensino Fundamental em 2016, independente da escola em que estudam. Porém, em caso de aprovação, só poderá matricular-se no programa High School o aluno que estiver devidamente matriculado no 9º ano do Ensino Fundamental do Colégio Jean Piaget em 2017.
+		<strong>1.</strong> A prova de seleção para o Jean Piaget High School é gratuita e aberta a todos os alunos que cursam o 8º ano do Ensino Fundamental em 2017, independente da escola em que estudam. Porém, em caso de aprovação, só poderá matricular-se no programa High School o aluno que estiver devidamente matriculado no 9º ano do Ensino Fundamental do Colégio Jean Piaget em 2018.
 	</p>
 	<br>
 	<p>
-		<strong>2.</strong> Para ser aprovado na seleção, o aluno precisa obter acerto de, pelo menos, 60% das questões da prova. As matrículas estarão abertas a partir de 23 de outubro e serão feitas por ordem de chegada, até o limite de vagas.
+		<strong>2.</strong> Para ser aprovado na seleção, o aluno precisa obter acerto de, pelo menos, 60% das questões da prova. As matrículas estarão abertas a partir de 24 de outubro e serão feitas por ordem de chegada, até o limite de vagas.
 	</p>
 	<br>
 	<p>

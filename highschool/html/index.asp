@@ -16,7 +16,7 @@
 		</p>
 		<br>
 		<p>
-			A <strong>prova</strong> acontece na terça-feira, dia <strong>28 de outubro</strong>, às 15h, na Unidade de Ensino Médio do Colégio.
+			A <strong>prova</strong> acontece na quarta-feira, dia <strong>04 de outubro</strong>, às 15h, na Unidade de Ensino Médio do Colégio.
 		</p>
 		<br>
 		<p>
@@ -24,7 +24,7 @@
 		</p>
 		<br>
 		<p>
-			As <strong>aulas preparatórias</strong> acontecem entre os <strong>dias 19 a 21 de outubro</strong>, sempre das 15h às 17h.
+			As <strong>aulas preparatórias</strong> acontecem entre os <strong>dias 29 de setembro e 03 de outubro</strong>, sempre das 15h às 17h.
 		</p>
 		<br>
 		<p>
@@ -32,11 +32,11 @@
 		</p>
 		<br>
 		<p>
-			Podem participar do processo seletivo, alunos que estejam cursando o 8º ano do Ensino Fundamental em 2016.
+			Podem participar do processo seletivo, alunos que estejam cursando o 8º ano do Ensino Fundamental em 2017.
 		</p>
 		<br>
 		<p>
-			Inscrições a partir de 04 de outubro.
+			Inscrições de 31 de agosto a 02 de outubro.
 		</p>
 	</main>
 

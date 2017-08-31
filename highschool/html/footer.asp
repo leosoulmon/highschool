@@ -11,8 +11,9 @@
 			</div>
 		</div>
 		<div class="part2">
+
 			<a href="http://mizzouk12online.missouri.edu/" target="_blank" class="logoFooterMu" alt="Jean Piaget Internacional" title="Ir para o site do Colégio">
-				<img src="/highschool/img/logo-mu.png">
+				<img src="/highschool/img/logo-mu.png"  style="width:220px; padding-bottom:15px;">
 			</a>
 
 			<a href="/" target="_blank" class="logoFooter" alt="Jean Piaget Internacional" title="Ir para o site do Colégio">

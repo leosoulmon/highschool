@@ -5,7 +5,7 @@
 
 		<p>Preencha o formulário abaixo.</p>
 		<br>
-		<form id="formulario-contato" class="formulario-contato" action="/scripts/contato_hs.asp" method="post" name="form1" accept-charset="ISO-8859-1">
+		<form id="formulario-contato" class="formulario-contato" action="/scripts/contato_hs.asp" method="post" name="form1">
 
 		    <p>
 		    	<label>
@@ -32,7 +32,7 @@
 	    		</label>
 		    </p>
 
-		    <input name="assunto" type="hidden" value="Formulario de Contato -  Jean Piaget High School">
+		    <input name="assunto" type="hidden" value="Formulario de Contato -  Colegio Jean Piaget">
             <input name="destino" type="hidden" value="jeanpiaget@jeanpiaget.g12.br">
 		    <input name="enviar" type="submit" class="botao" value=Enviar />                 
 		</form>

@@ -48,7 +48,7 @@ jQuery(function($){
         <p>
           <label>
             <strong><span>Nome do responsável:</span></strong>
-              <input type="text" name="nm_responsavel" class="campo" id="nm_responsavel" placeholder="Digite seu responsável">
+              <input type="text" name="nm_responsavel" class="campo" id="nm_responsavel" placeholder="Digite o nome do seu responsável">
           </label>
         </p>
         <p>
@@ -82,19 +82,19 @@ jQuery(function($){
           </label>
           <label>
             <strong><span>Complemento:</span></strong>
-            <input type="text" name="complemento" id="complemento" class="campo infos_aluno" placeholder="Complemento">
+            <input type="text" name="complemento" id="complemento" class="campo infos_aluno" placeholder="Ex: bloco ou nº do apartamento">
           </label>
         </p>
         <p>
           <label>
             <strong><span>Bairro:</span></strong>
-            <input type="text" name="bairro" class="campo infos_aluno" id="bairro" placeholder="Digite seu bairro">
+            <input type="text" name="bairro" class="campo infos_aluno" id="bairro" placeholder="Digite o nome do seu bairro">
           </label>
         </p>
         <p>
           <label>
             <strong><span>Cidade:</span></strong>
-            <input type="text" name="cidade" class="campo infos_aluno" id="cidade" placeholder="Digite sua cidade">
+            <input type="text" name="cidade" class="campo infos_aluno" id="cidade" placeholder="Digite o nome da sua cidade">
           </label>
         </p>
         <p>
@@ -104,8 +104,8 @@ jQuery(function($){
           </label>
         </p>
         <p>
-          <label><strong><span>Como soube do concurso:</span></strong>
-            <select name="como_soube" id="como_soube" class="campo como_soube" placeholder="Informe como soube" required>
+          <label><strong><span>Informe como soube da prova:</span></strong>
+            <select name="como_soube" id="como_soube" class="campo como_soube" placeholder="Informe como soube da prova">
               <option value="0">Escolha uma opção</option>
               <option value="Indicação">Indicação</option>
               <option value="Jornal ou Revista">Jornal ou revista</option> 
@@ -120,18 +120,24 @@ jQuery(function($){
         <p class="qual_meio" id="qual_meio" style="display:none;">
           <label>
             <span>Qual?</span>
-            <input type="text" name="digite_como_soube" class="campo" id="digite_como_soube" placeholder="Informe como soube da prova de seleção">
+            <input type="text" name="digite_como_soube" class="campo" id="digite_como_soube" placeholder="Informe como soube da prova">
           </label>
         </p>
 
         <p>
-          <label style="cursor:pointer;">
-            <input name="cd_confirmacao_TESTES" class="pointer concordo" type="checkbox" value="1" style="margin-right:5px;"> <strong>Quero participar das aulas preparatórias.
-            <small>Quando? 19/10 e 21/10 - das 15h às 17h.</small></strong>
-          </label>
+            <label style="cursor:pointer;">
+              <label>
+              <strong><span>Quer participar das aulas de apoio, nos dias 29/09 e 03/10, das 15h às 17h?</span></strong>
+              <!-- <small>Quando? 19/10 e 21/10 - das 15h às 17h.</small> -->
+                <select name="cd_confirmacao_TESTES" id="concordo" class="campo concordo" placeholder="Informe se quer participar das aulas de apoio">
+                  <option value="">Escolha uma opção</option>
+                  <option value="1">Sim</option>
+                  <option value="2">Não</option> 
+                </select>
+            </label>
         </p>
     <input name="assunto" type="hidden" value="Inscrição - Prova High School">
     <input name="destino" type="hidden" value="leonardosouza@jeanpiaget.g12.br">
-    <input name="redirecionar" type="hidden" value="/highschool2015/inscricoes-ok.asp">
+    <input name="redirecionar" type="hidden" value="/highschool/">
     <input name="Submit" type="submit" class="botao" value="Enviar"><br>
 </form>  
